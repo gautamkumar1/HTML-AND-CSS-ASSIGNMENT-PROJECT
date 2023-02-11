@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+body{
+    background-color: #111827;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-button{
+    margin-right: 20px;
+}
+button{
+    border: none;
+    background: #6464E0;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-section{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+.hero-left-section img{
+    width: 40px;
+    height: 40px;
+}
+.hero-right-section img{
+    width: 540px;
+    height: 540px;
+}
+.hero-left-section span{
+    font-size: 35px;
+    font-weight: 500;
+}
+.hero-left-section h1{
+    font-size: 45px;
+}
+.hero-left-section h2{
+    font-size: 40px;
+    color: #C5C559;
+}
+.Heading{
+    text-align: center;
+    font-size: 40px;
+}
+.horizontal-line{
+    height: 10px;
+    width: 210px;
+    background-color: #1919f5;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+.project1-project2 img{
+    width: 300px;
+    height: 300px;
+}
+.project3-project4 img{
+    width: 300px;
+    height: 300px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+p{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+}
+.Horizontal-line{
+    height: 10px;
+    width: 210px;
+    background-color: #1919f5;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+.image img{
+    width: 40px;
+    height: 40px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+@media screen and (max-width:940px){
+    .navbar{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin: 20px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    nav ul li{
+        list-style: none;
+        cursor: pointer;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .home-button{
+        margin-right: 20px;
+    }
+    button{
+        border: none;
+        background: #6464E0;
+        color: white;
+        border-radius: 12px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 5px 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .hero-section{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 20px;
+    }
+    .hero-left-section img{
+        width: 40px;
+        height: 40px;
+    }
+    .hero-right-section img{
+        width: 540px;
+        height: 540px;
+    }
+    .hero-left-section span{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .hero-left-section h1{
+        font-size: 45px;
+    }
+    .hero-left-section h2{
+        font-size: 40px;
+        color: #C5C559;
+    }
+    .Heading{
+        text-align: center;
+        font-size: 40px;
+    }
+    .horizontal-line{
+        height: 10px;
+        width: 210px;
+        background-color: #1919f5;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        margin: 0px auto;
+    }
+    .project1-project2 img{
+        width: 300px;
+        height: 300px;
+    }
+    .project3-project4 img{
+        width: 300px;
+        height: 300px;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    p{
+        text-align: center;
+    }
+    .heading{
+        text-align: center;
+        font-size: 30px;
+    }
+    .Horizontal-line{
+        height: 10px;
+        width: 210px;
+        background-color: #1919f5;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        margin: 0px auto;
+    }
+    .image img{
+        width: 40px;
+        height: 40px;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        flex-direction: column;
+    }
+}
